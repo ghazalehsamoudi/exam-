@@ -1,0 +1,13 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+main()
+{
+	int a;
+	cout<<"1 addad vared konid:";
+	cin>>a;
+	if(a%2==0)
+	    cout<<a<<" zoj ast";
+	else 
+	    cout<<a<<" fard ast";
+}
