@@ -1,0 +1,25 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+main()
+{
+	int a;
+	cout<<"iek adad az 1 ta 7 vared konid:";
+	cin>>a;
+	if(a==1)
+	    cout<<a<<" = shanbe";
+    else if(a==2)
+        cout<<a<<" =1shanbe";
+    else if(a==3)
+        cout<<a<<" =2shanbe";
+    else if(a==4)
+        cout<<a<<" =3shanbe";
+    else if(a==5)
+        cout<<a<<" =4shanbe";
+    else if(a==6)
+        cout<<a<<" =5shanbe";
+    else if(a==7)
+        cout<<a<<" =jomeh";
+    else
+        cout<<"adad vared shode az 1 ta 7 nemibashad";
+}
