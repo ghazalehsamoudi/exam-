@@ -1,0 +1,14 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+main()
+{
+	double hoghugh,hoghughekol;
+	int child;
+	cout<<"mizan e hoghugh khod ra vared konid:";
+	cin>>hoghugh;
+	cout<<"tedade farzandane khod ra vared konid:";
+	cin>>child;
+	hoghughekol=100000*child+hoghugh;
+	cout<<"hoghugh kol = "<<hoghughekol;
+}
